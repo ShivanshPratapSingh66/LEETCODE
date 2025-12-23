@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+
+public class Sum {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        System.out.println(x + y);
+        System.out.println("basics.Sum is " + (x + y));
+        System.out.println(".......................................");
+        System.out.print(" Accept input from user");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\nEnter two values ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.print("\n basics.Sum is : " + (a + b));
+        System.out.println("\n multiplication of " + a + " and " + b + " is : " + a * b);
+        System.out.println(".......................................");
+        System.out.print("\nage : ");
+        int age = sc.nextInt();
+        System.out.print("name : ");
+        String name = sc.next();
+        System.out.println("Hello " + name + " , you are " + age + " years old");
+    }
+}
