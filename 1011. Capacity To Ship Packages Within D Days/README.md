@@ -38,8 +38,6 @@ Explanation:
 3rd day: 3
 4th day: 1, 1
  
-
 Constraints:
-
 1 <= days <= weights.length <= 5 * 104
 1 <= weights[i] <= 500
