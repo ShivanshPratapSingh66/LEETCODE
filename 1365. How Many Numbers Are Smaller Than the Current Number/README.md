@@ -4,8 +4,6 @@ Given the array nums, for each nums[i] find out how many numbers in the array ar
 
 Return the answer in an array.
 
- 
-
 Example 1:
 
 Input: nums = [8,1,2,2,3]
